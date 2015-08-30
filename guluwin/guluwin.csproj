@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FAB9F7D-3DA3-4573-BBFC-B0183141B731}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SunnyChen.Gulu.Win</RootNamespace>
+    <AssemblyName>guluwin</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>gulu_ico.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Fireball.CodeEditor, Version=2.0.0.48, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Referenced Assemblies\firefx2\Fireball.CodeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Fireball.CodeEditor.SyntaxFiles, Version=2.0.0.48, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Referenced Assemblies\firefx2\Fireball.CodeEditor.SyntaxFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="Fireball.SyntaxDocument, Version=2.0.0.48, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Referenced Assemblies\firefx2\Fireball.SyntaxDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="Fireball.Windows.Forms, Version=2.0.0.48, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Referenced Assemblies\firefx2\Fireball.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Shared.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Win.Misc.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Win.UltraWinDock.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Win.UltraWinEditors.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Win.UltraWinExplorerBar.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Win.UltraWinStatusBar.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Win.UltraWinTabControl.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Win.UltraWinToolbars.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SunnyChen.ORG\Gulu\Infragistics2.Win.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\BackupConfigHandler.cs" />
+    <Compile Include="Configuration\ConfigReader.cs" />
+    <Compile Include="Configuration\EditorCompilerConfigHandler.cs" />
+    <Compile Include="Configuration\PreferenceConfigHandler.cs" />
+    <Compile Include="EventArgs\DirectorySearchingEventArgs.cs" />
+    <Compile Include="EventArgs\FilesAddedEventArgs.cs" />
+    <Compile Include="frmCodeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCodeEditor.Designer.cs">
+      <DependentUpon>frmCodeEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguration.Designer.cs">
+      <DependentUpon>frmConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDynamicHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDynamicHelp.Designer.cs">
+      <DependentUpon>frmDynamicHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\BackupHelper.cs" />
+    <Compile Include="Helper\FilesIconListManager.cs" />
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDummy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDummy.Designer.cs">
+      <DependentUpon>frmDummy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFileList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileList.Designer.cs">
+      <DependentUpon>frmFileList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFilters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFilters.Designer.cs">
+      <DependentUpon>frmFilters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGScriptManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGScriptManager.Designer.cs">
+      <DependentUpon>frmGScriptManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\GuluWorker.cs" />
+    <Compile Include="EventArgs\GuluWorkerFinishedEventArgs.cs" />
+    <Compile Include="Helper\GuluWorkerParameter.cs" />
+    <Compile Include="Helper\IconReader.cs" />
+    <Compile Include="NodeProperties\FileTreeNodeProperty.cs" />
+    <Compile Include="NodeProperties\ScriptTreeNodeProperty.cs" />
+    <Compile Include="PreReleaseAttribute.cs" />
+    <Compile Include="ScriptRepositories\IScriptRepository.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCodeEditor.en-US.resx">
+      <DependentUpon>frmCodeEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCodeEditor.resx">
+      <DependentUpon>frmCodeEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCodeEditor.zh-CN.resx">
+      <DependentUpon>frmCodeEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguration.en-US.resx">
+      <DependentUpon>frmConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguration.resx">
+      <DependentUpon>frmConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguration.zh-CN.resx">
+      <DependentUpon>frmConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDynamicHelp.en-US.resx">
+      <DependentUpon>frmDynamicHelp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDynamicHelp.resx">
+      <DependentUpon>frmDynamicHelp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDynamicHelp.zh-CN.resx">
+      <DependentUpon>frmDynamicHelp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileList.en-US.resx">
+      <DependentUpon>frmFileList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileList.resx">
+      <DependentUpon>frmFileList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileList.zh-CN.resx">
+      <DependentUpon>frmFileList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFilters.en-US.resx">
+      <DependentUpon>frmFilters.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFilters.resx">
+      <DependentUpon>frmFilters.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFilters.zh-CN.resx">
+      <DependentUpon>frmFilters.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGScriptManager.en-US.resx">
+      <DependentUpon>frmGScriptManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGScriptManager.resx">
+      <DependentUpon>frmGScriptManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGScriptManager.zh-CN.resx">
+      <DependentUpon>frmGScriptManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.en-US.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.zh-CN.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="key.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScriptRepositories\FileSystemScriptRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SunnyChen.Common\SunnyChen.Common.csproj">
+      <Project>{908AF854-98FF-46D2-BDC7-3A16A823DB9C}</Project>
+      <Name>SunnyChen.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SunnyChen.Gulu\SunnyChen.Gulu.csproj">
+      <Project>{3738C743-6275-45CC-BF95-2467D7FCCE17}</Project>
+      <Name>SunnyChen.Gulu</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Filter2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\VSProject_component.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\gulu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\gulu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gulu_ico.ico" />
+    <None Include="images\FullScreen.bmp" />
+    <None Include="images\AskQuestion.bmp" />
+    <None Include="images\Home.bmp" />
+    <None Include="images\book_angle.bmp" />
+    <None Include="images\VSProject_genericfile.bmp" />
+    <None Include="images\GScriptRoot.bmp" />
+    <None Include="images\userAccounts.bmp" />
+    <None Include="images\Calculator.bmp" />
+    <None Include="images\VSObject_Library.bmp" />
+    <None Include="images\Editor.bmp" />
+    <None Include="images\gear_2.bmp" />
+    <None Include="images\Options.bmp" />
+    <None Include="App.config">
+    </None>
+    <None Include="images\GoToNext.bmp" />
+    <None Include="images\242.ico" />
+    <None Include="images\230.ico" />
+    <None Include="images\205.ico" />
+    <None Include="images\Critical.bmp" />
+    <None Include="images\Refresh_Cancel.bmp" />
+    <None Include="images\Find.bmp" />
+    <None Include="images\SychronizeList.bmp" />
+    <None Include="images\Delete2.bmp" />
+    <None Include="images\Cut.bmp" />
+    <None Include="images\Copy.bmp" />
+    <None Include="images\Paste.bmp" />
+    <None Include="images\Edit_Redo.bmp" />
+    <None Include="images\Edit_Undo.bmp" />
+    <None Include="images\Run.bmp" />
+    <None Include="images\compile.ico" />
+    <None Include="images\delete.bmp" />
+    <None Include="images\VSFolder_open.bmp" />
+    <None Include="images\GScriptManager.bmp" />
+    <None Include="images\gulu_logo_about.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

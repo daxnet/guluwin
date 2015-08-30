@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AMG_CATEGORY" xml:space="preserve">
+    <value>Basic File Operations</value>
+  </data>
+  <data name="AMG_DESCRIPTION" xml:space="preserve">
+    <value>Modifies the attributes of the files.</value>
+  </data>
+  <data name="AMG_DOCUMENT" xml:space="preserve">
+    <value>&lt;FONT FACE="Tahoma" SIZE="2.5px" COLOR="Black"&gt;Attribute Modification allows users modify the attributes for a series of files. These attributes include: the standard ReadOnly, Hidden, Archive and System attributes, and the attributes that related to the date (such as creation date, last modification date etc.). Once you have selected the ReadOnly or System attribute, it is unable to set date attributes for files, because you don't have access to ReadOnly or System files.&lt;BR/&gt;&lt;BR/&gt;Sometimes it will show the message that it cannot apply new attributes to the files, this is because the file that is going to process has already have the ReadOnly or System attribute. You can firstly remove these attributes and then try again.&lt;/FONT&gt;</value>
+  </data>
+  <data name="AMG_NAME" xml:space="preserve">
+    <value>Attribute Modification</value>
+  </data>
+  <data name="AUTHOR_NAME" xml:space="preserve">
+    <value>Sunny Chen</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BMP_ATTRIBUTES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Legend.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_DELETE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Delete.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_FILELIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Table.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_MOVECOPY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\MoveToFolder.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_RENAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\RenameFolder.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_SEARCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\search.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_STATISTICS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Graph.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COMPANY_NAME" xml:space="preserve">
+    <value>SunnyChen.ORG</value>
+  </data>
+  <data name="COPYRIGHT" xml:space="preserve">
+    <value>Copyright © 2007-2008 SunnyChen.ORG, all rights reserved.</value>
+  </data>
+  <data name="FLG_CATEGORY" xml:space="preserve">
+    <value>Statistics and Reports</value>
+  </data>
+  <data name="FLG_DESCRIPTION" xml:space="preserve">
+    <value>Generates and outputs file list according to the settings.</value>
+  </data>
+  <data name="FLG_NAME" xml:space="preserve">
+    <value>Generate File List</value>
+  </data>
+  <data name="FRG_CATEGORY" xml:space="preserve">
+    <value>Basic File Operations</value>
+  </data>
+  <data name="FRG_DESCRIPTION" xml:space="preserve">
+    <value>Renaming files according to the settings.</value>
+  </data>
+  <data name="FRG_NAME" xml:space="preserve">
+    <value>Renaming</value>
+  </data>
+  <data name="FSG_CATEGORY" xml:space="preserve">
+    <value>Statistics and Reports</value>
+  </data>
+  <data name="FSG_DESCRIPTION" xml:space="preserve">
+    <value>Counting files by last access time, last modified time, etc.</value>
+  </data>
+  <data name="FSG_NAME" xml:space="preserve">
+    <value>File Date Statistics</value>
+  </data>
+  <data name="MCG_CATEGORY" xml:space="preserve">
+    <value>Basic File Operations</value>
+  </data>
+  <data name="MCG_DESCRIPTION" xml:space="preserve">
+    <value>Moves or copies files to a specific folder.</value>
+  </data>
+  <data name="MCG_NAME" xml:space="preserve">
+    <value>Move or Copy</value>
+  </data>
+  <data name="PDG_CATEGORY" xml:space="preserve">
+    <value>Basic File Operations</value>
+  </data>
+  <data name="PDG_DESCRIPTION" xml:space="preserve">
+    <value>Delete selected files permanently.</value>
+  </data>
+  <data name="PDG_DOCUMENT" xml:space="preserve">
+    <value>&lt;FONT FACE="Tahoma" SIZE="2.5px" COLOR="Black"&gt;The permanent delete gulu is used for deleting files permanently. You cannot recover the files deleted even if you use some third-party disk utilities. Before the action is going to be taken, a dialog box will appear to let user input "OK" so that the deleting operation is absolutely confirmed. This is because that the operation doesn't require the backup of the original files and you cannot get a rollback of the operation.&lt;/FONT&gt;</value>
+  </data>
+  <data name="PDG_NAME" xml:space="preserve">
+    <value>Permanent Delete</value>
+  </data>
+  <data name="SRG_CATEGORY" xml:space="preserve">
+    <value>Basic File Operations</value>
+  </data>
+  <data name="SRG_DESCRIPTION" xml:space="preserve">
+    <value>Searches or replaces texts in the files.</value>
+  </data>
+  <data name="SRG_NAME" xml:space="preserve">
+    <value>Searching and Replacing</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_PREVENT_SETTING" xml:space="preserve">
+    <value>The file has the attribute of System or ReadOnly, which prevents the setting.</value>
+  </data>
+  <data name="TEXT_INPUT_OK_TEXT" xml:space="preserve">
+    <value>Because this Gulu operation doesn't require backup, and the operation cannot be rolled back. Please confirm by entering "OK" below. Otherwise the operation will be canceled.</value>
+  </data>
+  <data name="TEXT_INPUT_OK_TITLE" xml:space="preserve">
+    <value>Please input OK</value>
+  </data>
+  <data name="TEXT_INVALID_OPERATION" xml:space="preserve">
+    <value>Operation is invalid.</value>
+  </data>
+  <data name="TEXT_PROCESSING" xml:space="preserve">
+    <value>Processing {0} ...</value>
+  </data>
+</root>

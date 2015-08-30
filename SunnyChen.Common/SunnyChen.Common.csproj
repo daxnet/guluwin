@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{908AF854-98FF-46D2-BDC7-3A16A823DB9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SunnyChen.Common</RootNamespace>
+    <AssemblyName>SunnyChen.Common</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\SunnyChen.Common.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSParser, Version=0.1.3073.38199, Culture=neutral, PublicKeyToken=2e90e242373585b0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Referenced Assemblies\CSParser.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=43377dd9a1e921cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Referenced Assemblies\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeDom\Compiler.cs" />
+    <Compile Include="CodeDom\CSharpCompiler.cs" />
+    <Compile Include="CodeDom\CSharpCodeVisualizer.cs" />
+    <Compile Include="CodeDom\IRunnable.cs" />
+    <Compile Include="CodeDom\VBCompiler.cs" />
+    <Compile Include="Collections\ValueSortedDictionary.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DataServices\DataCompression.cs" />
+    <Compile Include="DataServices\DataEncryption.cs" />
+    <Compile Include="DataServices\DataPackage.cs" />
+    <Compile Include="DataServices\DataUtility.cs" />
+    <Compile Include="DataServices\SymmetricCryptoServiceProvider.cs" />
+    <Compile Include="Diagnostic\TimeCounter.cs" />
+    <Compile Include="Enumerations\ErrorLevel.cs" />
+    <Compile Include="Enumerations\SortOrder.cs" />
+    <Compile Include="Enumerations\StreamType.cs" />
+    <Compile Include="Enumerations\SymmetricCryptoAlgorithm.cs" />
+    <Compile Include="ExceptionEventArgs.cs" />
+    <Compile Include="Network\NetworkCommunicator.cs" />
+    <Compile Include="Network\ResponseResultGeneric.cs" />
+    <Compile Include="Patterns\ExtendableMDI\MainFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patterns\ExtendableMDI\MainFormBase.Designer.cs">
+      <DependentUpon>MainFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patterns\ExtendableMDI\MDIChildBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patterns\ExtendableMDI\MDIChildBase.Designer.cs">
+      <DependentUpon>MDIChildBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patterns\ExtendableMDI\Attributes\NewActionAttribute.cs" />
+    <Compile Include="Patterns\ExtendableMDI\Attributes\OpenActionAttribute.cs" />
+    <Compile Include="Patterns\ExtendableMDI\Attributes\ActionAttribute.cs" />
+    <Compile Include="Patterns\ExtendableMDI\Attributes\SaveActionAttribute.cs" />
+    <Compile Include="Patterns\LengthyOperation.cs" />
+    <Compile Include="Patterns\SingletonGeneric.cs" />
+    <Compile Include="PluginException.cs" />
+    <Compile Include="Plugins\PluginAttribute.cs" />
+    <Compile Include="Plugins\PluginBase.cs" />
+    <Compile Include="Plugins\PluginManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RegularExpressions\RegularExpressionSet.cs" />
+    <Compile Include="Servers\CommandParameter.cs" />
+    <Compile Include="Servers\ConcurrencyServerBase.cs" />
+    <Compile Include="Servers\IServer.cs" />
+    <Compile Include="Servers\IServerCommand.cs" />
+    <Compile Include="Windows\Api.cs" />
+    <Compile Include="Windows\Forms\ApplicationDesktopToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ApplicationDesktopToolbar.Designer.cs">
+      <DependentUpon>ApplicationDesktopToolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Forms\ExceptionMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ExceptionMessageBox.Designer.cs">
+      <DependentUpon>ExceptionMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Forms\PropertyEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\PropertyEditor.Designer.cs">
+      <DependentUpon>PropertyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Forms\StringInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\StringInputBox.designer.cs">
+      <DependentUpon>StringInputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Forms\TypeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\TypeSelector.Designer.cs">
+      <DependentUpon>TypeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ShellApi\FilterByExtension.cs" />
+    <Compile Include="Windows\ShellApi\IFolderFilter.cs" />
+    <Compile Include="Windows\ShellApi\IFolderFilterSite.cs" />
+    <Compile Include="Windows\ShellApi\IMalloc.cs" />
+    <Compile Include="Windows\ShellApi\IShellFolder.cs" />
+    <Compile Include="Windows\ShellApi\ShellAddRecent.cs" />
+    <Compile Include="Windows\ShellApi\ShellApi.cs" />
+    <Compile Include="Windows\ShellApi\ShellBrowseForFolderDialog.cs" />
+    <Compile Include="Windows\ShellApi\ShellExecute.cs" />
+    <Compile Include="Windows\ShellApi\ShellFileOperation.cs" />
+    <Compile Include="Windows\ShellApi\ShellFunctions.cs" />
+    <Compile Include="Windows\ShellApi\ShellGUIDs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Patterns\ExtendableMDI\MainFormBase.resx">
+      <DependentUpon>MainFormBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\ExceptionMessageBox.en-US.resx">
+      <DependentUpon>ExceptionMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\ExceptionMessageBox.resx">
+      <DependentUpon>ExceptionMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\ExceptionMessageBox.zh-CN.resx">
+      <DependentUpon>ExceptionMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\PropertyEditor.en-US.resx">
+      <DependentUpon>PropertyEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\PropertyEditor.resx">
+      <DependentUpon>PropertyEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\PropertyEditor.zh-CN.resx">
+      <DependentUpon>PropertyEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\StringInputBox.resx">
+      <DependentUpon>StringInputBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\StringInputBox.zh-CN.resx">
+      <DependentUpon>StringInputBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\TypeSelector.en-US.resx">
+      <DependentUpon>TypeSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\TypeSelector.resx">
+      <DependentUpon>TypeSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\TypeSelector.zh-CN.resx">
+      <DependentUpon>TypeSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Exception.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

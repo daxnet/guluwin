@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AMG_CATEGORY" xml:space="preserve">
+    <value>基本文件操作</value>
+  </data>
+  <data name="AMG_DESCRIPTION" xml:space="preserve">
+    <value>修改文件的基本属性</value>
+  </data>
+  <data name="AMG_DOCUMENT" xml:space="preserve">
+    <value>&lt;FONT FACE="Tahoma" SIZE="2.5px" COLOR="Black"&gt;属性修改操作允许用户对一系列文件修改属性。这些属性包括：标准的“只读”、“隐藏”和“系统”属性，以及一些相关的日期属性（例如文件的创建时间、文件的最后更改时间等）。如果您已经选择需要设置文件的“只读”或“系统”属性，那么您将无法修改文件的日期属性，因为您无法修改“只读”或“系统”文件的任何信息。&lt;BR/&gt;&lt;BR/&gt;有时系统会提示说无法更改文件的属性，这是因为需要处理的文件已经被设置了“只读”或“系统”属性，您无法对具有这类属性的文件作进一步的操作。在这种情况下，请首先将文件的“只读”或“系统”属性去掉，然后在重试您的操作。&lt;/FONT&gt;</value>
+  </data>
+  <data name="AMG_NAME" xml:space="preserve">
+    <value>文件属性修改</value>
+  </data>
+  <data name="AUTHOR_NAME" xml:space="preserve">
+    <value>陈晴阳</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BMP_ATTRIBUTES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Legend.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_DELETE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Delete.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_FILELIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Table.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_MOVECOPY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\MoveToFolder.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_RENAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\RenameFolder.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_SEARCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\search.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_STATISTICS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Graph.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COMPANY_NAME" xml:space="preserve">
+    <value>SunnyChen.ORG</value>
+  </data>
+  <data name="COPYRIGHT" xml:space="preserve">
+    <value>版权所有 © 2007-2008 SunnyChen.ORG，保留所有权利。</value>
+  </data>
+  <data name="FLG_CATEGORY" xml:space="preserve">
+    <value>统计与报表</value>
+  </data>
+  <data name="FLG_DESCRIPTION" xml:space="preserve">
+    <value>根据用户的设置生成并输出文件列表</value>
+  </data>
+  <data name="FLG_NAME" xml:space="preserve">
+    <value>生成文件列表</value>
+  </data>
+  <data name="FRG_CATEGORY" xml:space="preserve">
+    <value>基本文件操作</value>
+  </data>
+  <data name="FRG_DESCRIPTION" xml:space="preserve">
+    <value>根据用户的设置对文件进行重命名</value>
+  </data>
+  <data name="FRG_NAME" xml:space="preserve">
+    <value>文件重命名</value>
+  </data>
+  <data name="FSG_CATEGORY" xml:space="preserve">
+    <value>统计与报表</value>
+  </data>
+  <data name="FSG_DESCRIPTION" xml:space="preserve">
+    <value>根据文件的最后访问、修改等时间属性对文件进行统计</value>
+  </data>
+  <data name="FSG_NAME" xml:space="preserve">
+    <value>文件统计</value>
+  </data>
+  <data name="MCG_CATEGORY" xml:space="preserve">
+    <value>基本文件操作</value>
+  </data>
+  <data name="MCG_DESCRIPTION" xml:space="preserve">
+    <value>将文件移动或复制到指定目录</value>
+  </data>
+  <data name="MCG_NAME" xml:space="preserve">
+    <value>移动与复制</value>
+  </data>
+  <data name="PDG_CATEGORY" xml:space="preserve">
+    <value>基本文件操作</value>
+  </data>
+  <data name="PDG_DESCRIPTION" xml:space="preserve">
+    <value>永久删除选择的文件</value>
+  </data>
+  <data name="PDG_DOCUMENT" xml:space="preserve">
+    <value>&lt;FONT FACE="Tahoma" SIZE="2.5px" COLOR="Black"&gt;本Gulu用于永久删除选中的文件。即使使用第三方的磁盘工具，您也无法恢复被删除的文件。在执行所有操作之前，系统会弹出一个对话框，让用户输入“OK”字符串，这是用来让用户再次确认自己的操作。这是因为，本Gulu不会对需要处理的文件进行备份，并且永久删除操作是无法回滚（撤销）的。&lt;/FONT&gt;</value>
+  </data>
+  <data name="PDG_NAME" xml:space="preserve">
+    <value>永久删除文件</value>
+  </data>
+  <data name="SRG_CATEGORY" xml:space="preserve">
+    <value>基本文件操作</value>
+  </data>
+  <data name="SRG_DESCRIPTION" xml:space="preserve">
+    <value>查找或替换文件中的文本</value>
+  </data>
+  <data name="SRG_NAME" xml:space="preserve">
+    <value>查找与替换</value>
+  </data>
+  <data name="TEXT_ATTRIBUTE_PREVENT_SETTING" xml:space="preserve">
+    <value>当前处理的文件具有系统或者只读属性，无法对该文件进行其它属性的设置。</value>
+  </data>
+  <data name="TEXT_INPUT_OK_TEXT" xml:space="preserve">
+    <value>由于该Gulu操作不对文件进行备份，而且操作是不可逆的。为了确保您的文件不会被意外修改或删除，请在下面的文本框中输入“OK”字样，以确信您需要继续当前的操作。</value>
+  </data>
+  <data name="TEXT_INPUT_OK_TITLE" xml:space="preserve">
+    <value>请输入OK字样</value>
+  </data>
+  <data name="TEXT_INVALID_OPERATION" xml:space="preserve">
+    <value>操作非法。</value>
+  </data>
+  <data name="TEXT_PROCESSING" xml:space="preserve">
+    <value>正在处理 {0} ...</value>
+  </data>
+</root>

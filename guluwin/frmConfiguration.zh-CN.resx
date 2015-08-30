@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkSearchRecursivly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="chkSearchRecursivly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 16</value>
+  </data>
+  <data name="chkSearchRecursivly.Text" xml:space="preserve">
+    <value>以递归的方式搜索（搜索指定文件夹及其子文件夹）</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 98</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 45</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>搜索选项</value>
+  </data>
+  <data name="chkShowSystem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 18</value>
+  </data>
+  <data name="chkShowSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="chkShowSystem.Text" xml:space="preserve">
+    <value>显示系统文件和文件夹</value>
+  </data>
+  <data name="chkShowFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="chkShowFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="chkShowFiles.Text" xml:space="preserve">
+    <value>显示文件</value>
+  </data>
+  <data name="chkShowHidden.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="chkShowHidden.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="chkShowHidden.Text" xml:space="preserve">
+    <value>显示隐藏的文件和文件夹</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 12</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 71</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>文件树</value>
+  </data>
+  <data name="tpPreferences.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 268</value>
+  </data>
+  <data name="btnSelectBackupDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 43</value>
+  </data>
+  <data name="btnSelectBackupDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="btnSelectBackupDirectory.Text" xml:space="preserve">
+    <value>选择...</value>
+  </data>
+  <data name="txtBackupDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 44</value>
+  </data>
+  <data name="txtBackupDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 21</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 47</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>备份目录：</value>
+  </data>
+  <data name="chkEnableBackup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 18</value>
+  </data>
+  <data name="chkEnableBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="chkEnableBackup.Text" xml:space="preserve">
+    <value>启用备份</value>
+  </data>
+  <data name="tpBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 268</value>
+  </data>
+  <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACG
+        BAAAAk1TRnQBSQFMAwEBAAEEAQABBAEAARABAAEQAQAE/wEZAQAI/wFCAU0BNgcAATYDAAEoAwABQAMA
+        ARADAAEBAQABGAYAAQwSAAH1AfoB+wFnAcIB2AEHAXwBmAEGAXYBkwEGAXYBkwEGAXYBkgEGAXYBkwEG
+        AXoBlgEFAXoBlgEFAXgBlAEFAXYBkgEGAXYBkgEGAXYBkwEGAXYBkwEFAXkBlQEpAYgBoJAAAc0B5QHr
+        AQ8BlwG3AQsBvAHiAQYBwwHoAQIBuwHkAQIBuAHiAQEBtAHcAQEBtQHfAQEBtAHcAQEBtQHfAQEBvAHj
+        AQEBtAHcAQEBtQHfAQIBugHiAQEBvgHoARcBjwGukAAB3wHtAfABOAG3AdcBGwHcAfcBGgHzAf8BBgHa
+        Af8BAwHaAf8BAAHNAfoBCQGlAccBIQErAS0BAwGhAcQBAAHNAfoBAAHNAfoBAQHOAfcBEQHkAfwBAgHB
+        AeUBPwF/AZGTAAGoAecB9QEeAc8B6gE5Af8B/gEcAfIB/wEHAeAB/wEAAc4B+gN0A0QDJQEAAc4B+gEA
+        Ac4B+gEMAdoB9QEVAe0B/QEFAYcBpQFdAZgBp5MAAfAB/AH+AUcBzgHoAUoB8wH3AUYC/wEYAfMB/wEF
+        AekB/wETAaQBxAN0AQABlAGzAQABzQH6AQIB1AH5ARkB7wH6AQkBzwHlAQ0BdgGRAfAB9gH3lgABpgHq
+        AfcBOwHWAeoBbgL/AUAC/wEYAfMB/wEEAbkB4AEKAZ4BvwEEAbwB5AECAdQB+QENAeIB+QEUAfAB/AED
+        AYwBqAFZAZkBqpkAAfEB/QH+AUgBzQHmAXMB9gH6AW4C/wEYAfMB/wENAc4B4AMoAQUBwgHjAQIB1AH5
+        ARUB8AH6AQYB1wHsAQkBdQGPAdwB5AHnnAABmwHjAfIBTAHaAewBjQL/AUAC/wExAZEBlgNDAQoBdAF/
+        AQIB1AH5ARcB9wH9AQUBmAGzAUABigGenwAB8QH6Af0BRAHJAeQBggH6Af4BZgLpAVMBcgF0AZQClwEU
+        ATYBPAEPAc8B4wELAekB9QEKAXYBkAHHAdgB3aIAAZUB3wHwAU0B3wHyAWQCwwGJAosDpQMjARcCwwEC
+        AawBvwEsAYQBm6UAAeUB+QH8AT4BzwHpAVsBwQHDA4cDtQMxARQCwwEJAXsBlgGvAcgB0KgAAY0B5AHy
+        AUAB3gHvAVwCuANpATEBiQGIAQkBuQHGASYBhQGdqwAB8AH7Af0BNAHKAeQBQQH8Af4BSQL/ARkC/wEL
+        AXsBlQGaAcQBz64AAZIB3AHtASQB4gHwAVEB9gH4AQ4BxAHUARkBewGUAfsC/K4AAeQB9gH6ATkByAHj
+        ATkBzQHmATsBtgHJAaUByQHTtAAB9gH9Af6oAAFCAU0BPgcAAT4DAAEoAwABQAMAARADAAEBAQABAQUA
+        AYAXAAP/GQABgAcAAYAHAAHAAQEGAAHAAQEGAAHgAQMGAAHgAQMGAAHwAQcGAAHwAQcGAAH4AQ8GAAH4
+        AQ8GAAH8AQ8GAAH8AR8GAAH+Af8GAAs=
+</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 21</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>要使本页的选项生效，需要重新启动应用程序。</value>
+  </data>
+  <data name="btnSelectCodeDomCompiler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 74</value>
+  </data>
+  <data name="btnSelectCodeDomCompiler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="btnSelectCodeDomCompiler.Text" xml:space="preserve">
+    <value>选择...</value>
+  </data>
+  <data name="txtCodeDomCompilerType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 42</value>
+  </data>
+  <data name="txtCodeDomCompilerType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 53</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 12</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>请选择用于编译脚本的编译器类型：</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 151</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 104</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>编译器</value>
+  </data>
+  <data name="cbSyntaxFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="cbSyntaxFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="cbGTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 56</value>
+  </data>
+  <data name="cbGTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 59</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>G 脚本模板：</value>
+  </data>
+  <data name="cbSimpleTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 56</value>
+  </data>
+  <data name="cbSimpleTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 59</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>简单脚本模板：</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 25</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>语法定义文件：</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 43</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 91</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>编辑器</value>
+  </data>
+  <data name="tpEditorAndCompiler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 268</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消(&amp;C)</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>确定(&amp;O)</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 310</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>518, 34</value>
+  </data>
+  <data name="ultraTabSharedControlsPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 268</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 11</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 294</value>
+  </data>
+  <data name="ultraTab1.Text" xml:space="preserve">
+    <value>首选项</value>
+  </data>
+  <data name="ultraTab2.Text" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="ultraTab3.Text" xml:space="preserve">
+    <value>编辑器与编译器</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>518, 344</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 9pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>配置</value>
+  </data>
+</root>

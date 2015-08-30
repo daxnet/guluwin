@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2170642-711F-4B80-91CE-82DCAA935C25}"
+	ProjectSection(SolutionItems) = preProject
+		postbuild.bat = postbuild.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnyChen.Common", "SunnyChen.Common\SunnyChen.Common.csproj", "{908AF854-98FF-46D2-BDC7-3A16A823DB9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guluwin", "guluwin\guluwin.csproj", "{0FAB9F7D-3DA3-4573-BBFC-B0183141B731}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EBE2DAE7-523C-4751-8335-B94C28C61886} = {EBE2DAE7-523C-4751-8335-B94C28C61886}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnyChen.Gulu.Filters", "SunnyChen.Gulu.Filters\SunnyChen.Gulu.Filters.csproj", "{EBE2DAE7-523C-4751-8335-B94C28C61886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnyChen.Gulu", "SunnyChen.Gulu\SunnyChen.Gulu.csproj", "{3738C743-6275-45CC-BF95-2467D7FCCE17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnyChen.Gulu.Gulus", "SunnyChen.Gulu.Gulus\SunnyChen.Gulu.Gulus.csproj", "{5244421B-E95F-44FB-9E1E-9DEA47C33B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vergen", "vergen\vergen.csproj", "{E2DD1894-088B-4322-AC78-169A924EDD72}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "gulusetup", "gulusetup\gulusetup.vdproj", "{F4EAC219-A9B8-42F0-92F0-14382BEDDB70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{908AF854-98FF-46D2-BDC7-3A16A823DB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908AF854-98FF-46D2-BDC7-3A16A823DB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908AF854-98FF-46D2-BDC7-3A16A823DB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908AF854-98FF-46D2-BDC7-3A16A823DB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FAB9F7D-3DA3-4573-BBFC-B0183141B731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAB9F7D-3DA3-4573-BBFC-B0183141B731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAB9F7D-3DA3-4573-BBFC-B0183141B731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAB9F7D-3DA3-4573-BBFC-B0183141B731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE2DAE7-523C-4751-8335-B94C28C61886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE2DAE7-523C-4751-8335-B94C28C61886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE2DAE7-523C-4751-8335-B94C28C61886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE2DAE7-523C-4751-8335-B94C28C61886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3738C743-6275-45CC-BF95-2467D7FCCE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3738C743-6275-45CC-BF95-2467D7FCCE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3738C743-6275-45CC-BF95-2467D7FCCE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3738C743-6275-45CC-BF95-2467D7FCCE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5244421B-E95F-44FB-9E1E-9DEA47C33B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5244421B-E95F-44FB-9E1E-9DEA47C33B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5244421B-E95F-44FB-9E1E-9DEA47C33B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5244421B-E95F-44FB-9E1E-9DEA47C33B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DD1894-088B-4322-AC78-169A924EDD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DD1894-088B-4322-AC78-169A924EDD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DD1894-088B-4322-AC78-169A924EDD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DD1894-088B-4322-AC78-169A924EDD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EAC219-A9B8-42F0-92F0-14382BEDDB70}.Debug|Any CPU.ActiveCfg = Debug
+		{F4EAC219-A9B8-42F0-92F0-14382BEDDB70}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

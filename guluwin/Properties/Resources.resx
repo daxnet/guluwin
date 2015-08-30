@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BMP_ASKQUESTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\AskQuestion.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_CALCULATOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Calculator.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_CONFIGURATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\gear_2.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_COPY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Copy.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_CUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Cut.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_DELETE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\delete.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_DELETE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Delete2.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_DYNAMICHELP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\VSObject_Library.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_EDITOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Editor.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_ERRORLIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Refresh_Cancel.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_FILELIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\VSProject_genericfile.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_FILTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Filter2.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_FIND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Find.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_GOTOLINE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\GoToNext.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_GScriptManager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\GScriptManager.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_GULU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\VSProject_component.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_HOME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Home.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_OPEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\VSFolder_open.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_OUTPUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\FullScreen.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_PASTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Paste.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_PREFERENCES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Options.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_REDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Edit_Redo.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_RUN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Run.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_SCRIPT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\GScriptRoot.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_SESSIONSTATUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\userAccounts.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_UNDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Edit_Undo.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_UPDATELIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\SychronizeList.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMP_USERGUIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\book_angle.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORMAT_PROPERTY_EDITOR_TITLE" xml:space="preserve">
+    <value>{0} - Properties</value>
+  </data>
+  <data name="ICO_COMPILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\compile.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_ERROR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\230.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\242.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_WARNING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\205.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JPG_GULU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\gulu.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JPG_GULU_ABOUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\gulu_logo_about.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEXT_ADD_REMOVE_BTNS" xml:space="preserve">
+    <value>&amp;Add or Remove Buttons</value>
+  </data>
+  <data name="TEXT_ARRANGE_ICONS" xml:space="preserve">
+    <value>&amp;Arrange Icons</value>
+  </data>
+  <data name="TEXT_BACKUP_FAILED" xml:space="preserve">
+    <value>Backup failed on the file {0}.</value>
+  </data>
+  <data name="TEXT_CASCADE" xml:space="preserve">
+    <value>&amp;Cascade</value>
+  </data>
+  <data name="TEXT_CATEGORY" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="TEXT_CLOSE_ALL_WINDOWS" xml:space="preserve">
+    <value>C&amp;lose All Windows</value>
+  </data>
+  <data name="TEXT_CODEEDITOR_TITLE" xml:space="preserve">
+    <value>Code Editor - {0}, {1}</value>
+  </data>
+  <data name="TEXT_COL_ERRORCODE" xml:space="preserve">
+    <value>Error Code</value>
+  </data>
+  <data name="TEXT_COL_ERRORLEVEL" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="TEXT_COL_ERRORLINE" xml:space="preserve">
+    <value>Line Number</value>
+  </data>
+  <data name="TEXT_COL_ERRORTEXT" xml:space="preserve">
+    <value>Error Text</value>
+  </data>
+  <data name="TEXT_COMPILE_OK" xml:space="preserve">
+    <value>Compile accomplished successfully.</value>
+  </data>
+  <data name="TEXT_CONFIG_BACKUP_PATH_DESC" xml:space="preserve">
+    <value>Please select the folder for backup.</value>
+  </data>
+  <data name="TEXT_CONFIRMATION" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="TEXT_CONFIRM_CLEARLIST" xml:space="preserve">
+    <value>This will clear all the items in the file list, do you wish to continue?</value>
+  </data>
+  <data name="TEXT_CONFIRM_DELETE_ITEM" xml:space="preserve">
+    <value>The selected item is going to be deleted, are you sure?</value>
+  </data>
+  <data name="TEXT_CONFIRM_INTERRUPT" xml:space="preserve">
+    <value>It is going to interrupt current process, are you sure?</value>
+  </data>
+  <data name="TEXT_CONFIRM_INTERRUPT_SEARCHING" xml:space="preserve">
+    <value>This will interrupt the searching process, continue?</value>
+  </data>
+  <data name="TEXT_CONFIRM_SAVE_SCRIPT" xml:space="preserve">
+    <value>Script has been changed, do you want to save changes?</value>
+  </data>
+  <data name="TEXT_CUSTOMIZE" xml:space="preserve">
+    <value>&amp;Customize...</value>
+  </data>
+  <data name="TEXT_DEFAULT_NAMESPACE" xml:space="preserve">
+    <value>DEFAULT_NAMESPACE</value>
+  </data>
+  <data name="TEXT_DESKTOP" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="TEXT_DEVELOPERMANUAL_NOT_FOUND" xml:space="preserve">
+    <value>Developer manual doesn't exist.</value>
+  </data>
+  <data name="TEXT_DONE_GULU" xml:space="preserve">
+    <value>Finalizing Gulu... </value>
+  </data>
+  <data name="TEXT_ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="TEXT_ERR_COMPILE" xml:space="preserve">
+    <value>Compile failed.</value>
+  </data>
+  <data name="TEXT_ERR_COMPILE_GENERAL" xml:space="preserve">
+    <value>General error occurs while compiles.</value>
+  </data>
+  <data name="TEXT_ERR_GET_CODE_STRUCT" xml:space="preserve">
+    <value>(Unable to load code structure.)</value>
+  </data>
+  <data name="TEXT_ERR_NO_CODE" xml:space="preserve">
+    <value>Code has not been added to compiler.</value>
+  </data>
+  <data name="TEXT_FILE_ALREADY_ADDED" xml:space="preserve">
+    <value>File {0} has already been added to the list.</value>
+  </data>
+  <data name="TEXT_FILE_NOT_EXIST" xml:space="preserve">
+    <value>File {0} doesn't exist, ignored.</value>
+  </data>
+  <data name="TEXT_FILE_OPER_FAILED" xml:space="preserve">
+    <value>[ERROR] Operation FAILED on file {0}.</value>
+  </data>
+  <data name="TEXT_FILTERS" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="TEXT_GENERAL_ROOT" xml:space="preserve">
+    <value>General Places</value>
+  </data>
+  <data name="TEXT_GSCRIPT_ROOT" xml:space="preserve">
+    <value>G scripts</value>
+  </data>
+  <data name="TEXT_GULUS" xml:space="preserve">
+    <value>Gulus</value>
+  </data>
+  <data name="TEXT_GULU_INIT_FAILED" xml:space="preserve">
+    <value>Failed to initialize the Gulu, operation cancelled.</value>
+  </data>
+  <data name="TEXT_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="TEXT_INFO_FILELIST_NOT_OPEN" xml:space="preserve">
+    <value>File list is not open yet.
+Please open the file list from main menu, drop some file into the file list and be sure the files are selected.</value>
+  </data>
+  <data name="TEXT_INFO_INVALID_NODE" xml:space="preserve">
+    <value>Selected tree node is not a valid file tree node.</value>
+  </data>
+  <data name="TEXT_INFO_NODETYPE_NOT_SUPPORTED" xml:space="preserve">
+    <value>The type of current tree node is not supported.</value>
+  </data>
+  <data name="TEXT_INFO_NOITEM" xml:space="preserve">
+    <value>Nothing is selected in the file list or the file list is empty.
+Please drop some file into the file list and be sure they are selected.</value>
+  </data>
+  <data name="TEXT_INIT_COMPILER" xml:space="preserve">
+    <value>Initializing CodeDom Compiler...</value>
+  </data>
+  <data name="TEXT_INIT_COMPONENTS" xml:space="preserve">
+    <value>Initializing components...</value>
+  </data>
+  <data name="TEXT_INIT_CONTROLSTATES" xml:space="preserve">
+    <value>Initializing control states...</value>
+  </data>
+  <data name="TEXT_INIT_GULU" xml:space="preserve">
+    <value>Initializing Gulu... currently {0}</value>
+  </data>
+  <data name="TEXT_INIT_GULUMANAGER" xml:space="preserve">
+    <value>Initializing Gulu manager...</value>
+  </data>
+  <data name="TEXT_INIT_SETEVENTHANDLERS" xml:space="preserve">
+    <value>Setting event handlers...</value>
+  </data>
+  <data name="TEXT_INIT_SETSESSIONPARAM" xml:space="preserve">
+    <value>Setting session parameters...</value>
+  </data>
+  <data name="TEXT_INIT_TREEVIEW" xml:space="preserve">
+    <value>Initializing file tree view...</value>
+  </data>
+  <data name="TEXT_INIT_UPDATEELEMENTS" xml:space="preserve">
+    <value>Updating elements...</value>
+  </data>
+  <data name="TEXT_INPUTNAME" xml:space="preserve">
+    <value>Please input the name of the script that you want to create. This name string should begin with underscores or letters, then followed by underscores, letters or digits. Creating the script with the existing names will be rejected.</value>
+  </data>
+  <data name="TEXT_INPUTNAME_TITLE" xml:space="preserve">
+    <value>Please input name</value>
+  </data>
+  <data name="TEXT_MIN_ALL_WINDOWS" xml:space="preserve">
+    <value>Minimize All Windows</value>
+  </data>
+  <data name="TEXT_MYDOCUMENT" xml:space="preserve">
+    <value>My Documents</value>
+  </data>
+  <data name="TEXT_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="TEXT_NAV_PANE_OPTIONS" xml:space="preserve">
+    <value>Na&amp;vigation Pane Options...</value>
+  </data>
+  <data name="TEXT_NOT_SPECIFIED" xml:space="preserve">
+    <value>(Not specified)</value>
+  </data>
+  <data name="TEXT_NO_DOCUMENT_AVAILABLE" xml:space="preserve">
+    <value>&lt;FONT SIZE="2.5px" FACE="Tahoma" COLOR="GRAY"&gt;Currently no documentation is available for the selected item.&lt;/FONT&gt;</value>
+  </data>
+  <data name="TEXT_NO_SETTINGS" xml:space="preserve">
+    <value>No setting options for the current item</value>
+  </data>
+  <data name="TEXT_PATH_NOT_FOUND" xml:space="preserve">
+    <value>Path {0} was not found.</value>
+  </data>
+  <data name="TEXT_PRERELEASE" xml:space="preserve">
+    <value>PRE-RELEASE</value>
+  </data>
+  <data name="TEXT_PROMPT_COMPILER_TYPE" xml:space="preserve">
+    <value>Compiler type: {0}</value>
+  </data>
+  <data name="TEXT_PROMPT_LOADED_GULUS" xml:space="preserve">
+    <value>Loaded gulus: {0}</value>
+  </data>
+  <data name="TEXT_PROMPT_SESSION_NAME" xml:space="preserve">
+    <value>Session name: {0}</value>
+  </data>
+  <data name="TEXT_PROMPT_TIME_ELAPSED" xml:space="preserve">
+    <value>Time elapsed: {0}</value>
+  </data>
+  <data name="TEXT_PROPERTY" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="TEXT_READY" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="TEXT_SCRIPT_ALREADY_EXISTS" xml:space="preserve">
+    <value>The given script name already exists.</value>
+  </data>
+  <data name="TEXT_SCRIPT_MUST_SPECIFY" xml:space="preserve">
+    <value>Templates and syntax file must be specified for each type of script.</value>
+  </data>
+  <data name="TEXT_SEARCHING_DIRECTORY" xml:space="preserve">
+    <value>Searching directories, {0} items found...</value>
+  </data>
+  <data name="TEXT_SEARCH_COMPLETED" xml:space="preserve">
+    <value>Search completed.</value>
+  </data>
+  <data name="TEXT_SEARCH_RESULT" xml:space="preserve">
+    <value>{0} files found.</value>
+  </data>
+  <data name="TEXT_SELCOMPILER_DESC" xml:space="preserve">
+    <value>Please select the type for the compiler. The type must be derived from SunnyChen.Common.CodeDom.Compiler.</value>
+  </data>
+  <data name="TEXT_SELCOMPILER_TITLE" xml:space="preserve">
+    <value>Select compiler type</value>
+  </data>
+  <data name="TEXT_SHOW_FEWER_BTNS" xml:space="preserve">
+    <value>Show &amp;Fewer Buttons</value>
+  </data>
+  <data name="TEXT_SHOW_MORE_BTNS" xml:space="preserve">
+    <value>Show &amp;More Buttons</value>
+  </data>
+  <data name="TEXT_SIMPLESCRIPT_ROOT" xml:space="preserve">
+    <value>Simple scripts</value>
+  </data>
+  <data name="TEXT_SPECIAL_ROOT" xml:space="preserve">
+    <value>Special Places</value>
+  </data>
+  <data name="TEXT_TERMINATED_NORMALLY" xml:space="preserve">
+    <value>Gulu is terminated normally.</value>
+  </data>
+  <data name="TEXT_TERMINATED_USER" xml:space="preserve">
+    <value>Gulu is interrupted by user.</value>
+  </data>
+  <data name="TEXT_TILE_HORI" xml:space="preserve">
+    <value>Tile Hori&amp;zontally</value>
+  </data>
+  <data name="TEXT_TILE_VERT" xml:space="preserve">
+    <value>Tile &amp;Vertically</value>
+  </data>
+  <data name="TEXT_USERGUIDE_NOT_FOUND" xml:space="preserve">
+    <value>User guide doesn't exist.</value>
+  </data>
+  <data name="TEXT_WARNING" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="TEXT_WARN_GULU_ALREADY_EXIST" xml:space="preserve">
+    <value>The gulu already exists. Program will continue but it will discard the duplicated gulus. Whether the gulu is duplicated depends on the Identifier property.
+
+Gulu information:
+
+{0}</value>
+  </data>
+</root>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5244421B-E95F-44FB-9E1E-9DEA47C33B36}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SunnyChen.Gulu.Gulus</RootNamespace>
+    <AssemblyName>SunnyChen.Gulu.Gulus</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicFileOperations\AttributeModification\Gulu.cs" />
+    <Compile Include="BasicFileOperations\AttributeModification\SettingsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicFileOperations\AttributeModification\SettingsDialog.Designer.cs">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicFileOperations\FileRenaming\Gulu.cs" />
+    <Compile Include="BasicFileOperations\FileRenaming\SettingsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicFileOperations\FileRenaming\SettingsDialog.Designer.cs">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicFileOperations\MoveCopy\Gulu.cs" />
+    <Compile Include="BasicFileOperations\PermanentDelete\Gulu.cs" />
+    <Compile Include="BasicFileOperations\SearchAndReplace\Gulu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\FileList\FormatWriter.cs" />
+    <Compile Include="Statistics\FileList\Gulu.cs" />
+    <Compile Include="Statistics\FileDateStatistics\Gulu.cs" />
+    <Compile Include="Statistics\FileList\IFormatBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SunnyChen.Common\SunnyChen.Common.csproj">
+      <Project>{908AF854-98FF-46D2-BDC7-3A16A823DB9C}</Project>
+      <Name>SunnyChen.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SunnyChen.Gulu\SunnyChen.Gulu.csproj">
+      <Project>{3738C743-6275-45CC-BF95-2467D7FCCE17}</Project>
+      <Name>SunnyChen.Gulu</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BasicFileOperations\AttributeModification\SettingsDialog.en-US.resx">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicFileOperations\AttributeModification\SettingsDialog.resx">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicFileOperations\AttributeModification\SettingsDialog.zh-CN.resx">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicFileOperations\FileRenaming\SettingsDialog.resx">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicFileOperations\FileRenaming\SettingsDialog.zh-CN.resx">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Delete.bmp" />
+    <None Include="key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Table.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Graph.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\RenameFolder.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\MoveToFolder.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\search.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Legend.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DeveloperHelper\CodeLineStatistics\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>"$(SolutionDir)postbuild.bat" "$(SolutionDir)" "$(ConfigurationName)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
